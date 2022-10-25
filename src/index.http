@@ -1,0 +1,38 @@
+POST http://localhost:3000/auth/register
+content-type: application/json
+
+{
+    "email": "example@email.com",
+    "password": "1234"
+}
+
+###
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "email": "example@email.com",
+    "password": "1234"
+}
+
+###
+GET http://localhost:3000/characters
+###
+GET http://localhost:3000/movies
+
+###
+GET http://localhost:3000/characters/shrek
+
+###
+GET http://localhost:3000/movies/shrek2
+
+###
+GET http://localhost:3000/characters/shrek
+
+###
+GET http://localhost:3000/movies/
+
+###
+GET http://localhost:3000/characters?age=12
+###
+GET http://localhost:3000/movies?related=peter

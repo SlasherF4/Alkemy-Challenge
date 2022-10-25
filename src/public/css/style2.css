@@ -1,0 +1,24 @@
+.div {
+    background-color: rgb(5, 53, 184);
+    height: 95vh;
+}
+
+.div__h1 {
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.nav {
+    background-color: black;
+    height: 5vh;
+}
+
+.nav__link {
+    color: white;
+    margin: 0;
+    padding: 5px;
+    display: inline;
+}
